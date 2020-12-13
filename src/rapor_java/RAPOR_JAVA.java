@@ -22,6 +22,27 @@ public class RAPOR_JAVA {
          Scanner input = new Scanner (System.in);       
         String ulang,nama;
         
+        while (running){
+            System.out.println("======RAPOR======");
+            System.out.print("Nama = ");
+            nama=input.nextLine();
+            System.out.println("Silahkan Kepada "+ nama +"Memasukan 4 Nilai [Nilai Tugas,Nilai Ulangan Harian,Nilai PTS,Nilai PAS]");
+            System.out.print("Nilai Tugas = ");
+            nilaitugas=input.nextInt();
+            System.out.print("Nilai Ulangan Harian = ");
+            nilaiulangan=input.nextInt();
+            System.out.print("Nilai PTS = ");
+            nilaipts=input.nextInt();
+            System.out.print("Nilai PAS = ");
+            nilaipas=input.nextInt();
+            
+        
+        
+        
+        
+        
+        }
+        
         
         
         
