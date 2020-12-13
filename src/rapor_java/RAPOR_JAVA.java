@@ -36,11 +36,25 @@ public class RAPOR_JAVA {
             System.out.print("Nilai PAS = ");
             nilaipas=input.nextInt();
             
-        
-        
-        
-        
-        
+        ratarata=(nilaitugas+nilaiulangan+nilaipts+nilaipas)/4;
+        if (ratarata>75){
+            System.out.println("Rata Rata Anda Adalah "+ratarata);
+            System.out.println("Anda Tidak Perlu Memperbaiki Atau Menambah Nilai");
+        }else {
+        System.out.println("Rata Rata Anda Adalah "+ratarata);
+            System.out.println("Anda Perlu Memperbaiki Menambah Nilai");
+        }
+        input.nextLine();
+            System.out.println("Apakah Anda Ingin Mengulang Program?[ya/tidak]");
+            ulang=input.nextLine();
+            if(ulang.equalsIgnoreCase("ya")){
+            running = true;
+            }if(ulang.equalsIgnoreCase("ya")){
+            running = true;
+            }if(ulang.equalsIgnoreCase("tidak")){
+            running = false;
+            }
+            
         }
         
         
